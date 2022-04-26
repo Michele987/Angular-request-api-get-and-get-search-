@@ -1,0 +1,17 @@
+<section>
+
+    <input type="text" name="giphyText" #input>
+    <button type="submit" (click) ="getData(input)">Search</button>
+
+</section>
+
+
+<article>
+
+  <div *ngFor="let arrGif of gifSearchForName">
+
+    <img src="{{arrGif.images.downsized.url}}" alt="">
+    
+  </div>
+
+</article>

@@ -1,0 +1,12 @@
+<section>
+
+    <div id="boxImages" *ngFor="let arrayGiphy of arrGiphy">
+
+        <img src="{{arrayGiphy.images.downsized.url}}" alt="Giphy">
+
+        <a [routerLink] = "['/giphy-detail', arrayGiphy.id]">Visualizza dettaglio GIF</a>
+
+    </div>
+
+</section>
+

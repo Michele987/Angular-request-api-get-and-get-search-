@@ -1,0 +1,46 @@
+section{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input{
+        outline: none;
+        width: 20%;
+        padding: 8px;
+        border-radius: 5px;
+
+        &:focus{
+            border-color: aqua;
+            box-shadow: 0 0 6px aqua;
+        }
+
+    }
+
+    
+    button{
+        padding: 12px 36px;
+        text-transform: uppercase;
+        background: linear-gradient(90deg, #0162c8,#55e7fc);
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+        color: white;
+    }
+    
+}
+
+article{
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+
+    img{
+        
+        border-radius: 10%;
+        height: 90%;
+        width: 80%;
+    }
+}
+
